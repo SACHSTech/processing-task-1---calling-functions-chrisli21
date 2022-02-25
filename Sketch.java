@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	// put your size call here
-    size(400, 400);
+    size(500, 500);
   }
 
   /** 
@@ -26,17 +26,34 @@ public class Sketch extends PApplet {
 	  
 	// Windows
     rect(130, 290, 50, 50);
-    fill(163, 38, 38);
+    fill(255, 251, 0);
 
     rect(200, 290, 50, 50);
-    fill(163, 38, 38);
+    fill(255, 251, 0);
+
+    rect(270, 290, 50, 50);
+    fill(255, 251, 0);
 
   // Sun
     ellipse(460, 50, 150, 150);
-    fill(225, 232, 35);
+    fill(38, 0, 255);
 
   // House
     rect(120, 240, 220, 220);
+    fill(0,0,0);
+
+  // Grass
+    rect(0, 450, 500, 70);
+    fill(0, 156, 23);
+
+  // Pathway
+    rect(200,440,70,80);
+    fill(255, 0, 0);
+
+  // Roof
+    triangle(80, 240, 250, 130, 380, 250);
+    fill(0, 0, 0);
+    
     
     
   }
